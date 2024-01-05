@@ -1,0 +1,1 @@
+# feather-openapi-generator-template
