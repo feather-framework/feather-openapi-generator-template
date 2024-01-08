@@ -69,9 +69,9 @@ enum {Name} {
             -> OpenAPI.ComponentDictionary<OpenAPI.Parameter>
         {
             [
-                "systemVariableId": Parameters.id,
+                /*"systemVariableId": Parameters.id,
                 "systemVariableListSortBy": Generic.Parameters.sortBy("{Name}"),
-                "systemVariableListFilterKey": Generic.Parameters.filterKey("{Name}"),
+                "systemVariableListFilterKey": Generic.Parameters.filterKey("{Name}"),*/
             ]
         }
     }
