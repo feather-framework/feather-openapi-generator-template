@@ -1,7 +1,4 @@
 //
-//  {Name}Builder.swift
-//  {project}
-//
 //  Created by {author} on {date}.
 //
 
