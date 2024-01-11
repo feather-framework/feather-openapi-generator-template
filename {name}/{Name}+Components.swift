@@ -1,7 +1,4 @@
 //
-//  {Name}Builder.swift
-//  {project}
-//
 //  Created by {author} on {date}.
 //
 
@@ -14,16 +11,16 @@ extension {Name} {
     enum Components {
 
         // MARK: -
-        
+
         static var reference: JSONSchema {
             .object(
                 properties: [
                     "id": Generic.Fields.uuid(),
-                    "sampleField": Fields.sampleField(),
+                    "sampleField": Fields.sampleField()
                 ]
             )
         }
-        
+
         // MARK: - list
 
         static var listItem: JSONSchema {
@@ -46,18 +43,18 @@ extension {Name} {
         static var listFilterKey: JSONSchema {
             .enumeration(
                 description: "The sort key for the list",
-                allowedValues:["sampleField"],
+                allowedValues: ["sampleField"],
                 examples: ["sampleField"]
             )
         }
-        
+
         // MARK: -
 
         static var detail: JSONSchema {
             .object(
                 properties: [
                     "id": Generic.Fields.uuid(),
-                    "sampleField": Fields.sampleField(),
+                    "sampleField": Fields.sampleField()
                 ]
             )
         }
@@ -65,7 +62,7 @@ extension {Name} {
         static var create: JSONSchema {
             .object(
                 properties: [
-                    "sampleField": Fields.sampleField(),
+                    "sampleField": Fields.sampleField()
                 ]
             )
         }
@@ -73,7 +70,7 @@ extension {Name} {
         static var update: JSONSchema {
             .object(
                 properties: [
-                    "sampleField": Fields.sampleField(),
+                    "sampleField": Fields.sampleField()
                 ]
             )
         }
@@ -81,7 +78,7 @@ extension {Name} {
         static var patch: JSONSchema {
             .object(
                 properties: [
-                    "sampleField": Fields.sampleField(required: false),
+                    "sampleField": Fields.sampleField(required: false)
                 ]
             )
         }
