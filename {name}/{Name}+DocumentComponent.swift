@@ -48,7 +48,7 @@ extension {Name} {
                 Identifiers.Components.list: Generic.Components.list({Name}),
                 Identifiers.Components.listItem: Components.listItem,
                 Identifiers.Components.listSortBy: Components.listSortBy,
-                Identifiers.Components.listSortItem: GenericComponents.listSortItem({Name}),
+                Identifiers.Components.listSortItem: Generic.Components.listSortItem({Name}),
                 Identifiers.Components.listFilter: Generic.Components.listFilter({Name}),
                 Identifiers.Components.listFilterKey: Components.listFilterKey,
                 Identifiers.Components.listFilterQueryItem:Generic.Components.listFilterQueryItem({Name}),
