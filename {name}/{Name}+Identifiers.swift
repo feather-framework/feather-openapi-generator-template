@@ -6,7 +6,7 @@ import OpenAPIKit
 import OpenAPIKitCore
 import FeatherOpenAPIKit
 
-extension SystemVariable {
+extension {Name} {
 
     enum Identifiers {
 
