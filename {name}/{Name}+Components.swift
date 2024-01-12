@@ -42,7 +42,7 @@ extension {Name} {
 
         static var listFilterKey: JSONSchema {
             .enumeration(
-                description: "The sort key for the list",
+                description: "The filter key for the list",
                 allowedValues: ["sampleField"],
                 examples: ["sampleField"]
             )
